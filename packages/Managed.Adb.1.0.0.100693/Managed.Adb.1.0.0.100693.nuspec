@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Managed.Adb</id>
+    <version>1.0.0.100693</version>
+    <title>Managed Android Debug Bridge (MadBee)</title>
+    <authors>Ryan Conrad</authors>
+    <owners>Ryan Conrad</owners>
+    <licenseUrl>http://madb.codeplex.com/license</licenseUrl>
+    <projectUrl>http://madb.codeplex.com/</projectUrl>
+    <iconUrl>http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=madb&amp;DownloadId=235792</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A managed library for communicating with the Android Debug Bridge.
+
+* fixed sync package to device to use the correct file name
+* improved the FileSystem.ResolveLink to work with devices that don't have busybox
+* improved the device listing to allow device names with spaces.</description>
+    <language>en-US</language>
+    <tags>.net20 .net35 .net40 android adb</tags>
+  </metadata>
+</package>
